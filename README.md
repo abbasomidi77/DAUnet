@@ -1,0 +1,19 @@
+# DAUnet
+
+Welcome to DAUnet, an unsupervised domain adaptation tool for performing MRI skull-stripping on newborn data using a model trained on adult data. This repository allows you to seamlessly adapt your model for this challenging task.
+
+# Data
+We leverage the CALGARY-CAMPINAS PUBLIC BRAIN MR DATASET, available at [this link](https://sites.google.com/view/calgary-campinas-dataset/home). Please download the dataset from the provided link to proceed. Additionally, we have included sample data-split CSV files in the Data-split folder to help you organize your data.
+
+# Configuration
+The current patch size for both adult and newborn data is set to 112x112x122. However, you can easily customize the patch sizes for both datasets by modifying the parameters in the data_loader_da.py script.
+
+# Getting Started
+To run the code, execute the following command, making sure to adjust the paths to your source and target data splits and your desired output folder:
+
+`python /home/abbas.omidi/multitask_model/mu96/main.py --batch_size 2 --epochs 400 --source_dev_images /home/abbas.omidi/multitask_model/mu96/Data-split/source_train_set_neg.csv --source_dev_images source_train_set_masks_neg.csv  --source_dev_images target_train_set.csv --results_dir Outputs`
+
+# Resuming Training
+If you need to resume your training, simply include the --resume_training True argument in your command.
+
+Feel free to reach out if you have any questions or need assistance. Good luck with your project!
