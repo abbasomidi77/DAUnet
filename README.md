@@ -1,6 +1,7 @@
 # DAUnet
 
 Welcome to DAUnet, an unsupervised domain adaptation tool for performing MRI skull-stripping on newborn data using a model trained on adult data. This repository allows you to seamlessly adapt your model for this challenging task.
+![Final drawio](https://github.com/abbasomidi77/DAUnet/assets/61683254/60da03d5-f904-4e17-bd96-f5a1d214c2d1)
 
 # Data
 We leverage the CALGARY-CAMPINAS PUBLIC BRAIN MR DATASET, available at [this link](https://sites.google.com/view/calgary-campinas-dataset/home). Please download the dataset from the provided link to proceed. Additionally, we have included sample data-split CSV files in the Data-split folder to help you organize your data.
