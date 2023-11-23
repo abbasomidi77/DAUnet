@@ -17,4 +17,4 @@ To run the code, execute the following command, making sure to adjust the paths 
 # Resuming Training
 If you need to resume your training, simply include the `--resume_training True` argument in your command.
 
-Feel free to reach out if you have any questions or need assistance. Good luck with your project!
+Feel free to reach out if you have any questions or need assistance.
